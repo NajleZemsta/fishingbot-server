@@ -1,6 +1,4 @@
 {
-    "version": "1.0.2", 
-    "changelog": "- bugfix na captura de spot\n- nova opção de delay dinâmico",
-    "url": "https://github.com/NajleZemsta/fishingbot-server/releases/download/1.0.0/fishingbot.zip"
-  }
-  
+  "version": "1.0.1",
+  "url": "https://fishingbot-server.onrender.com/static/fishing_bot_1.0.1.exe"
+}
