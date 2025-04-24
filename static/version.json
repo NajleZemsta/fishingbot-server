@@ -1,6 +1,6 @@
 {
     "version": "1.0.2", 
     "changelog": "- bugfix na captura de spot\n- nova opção de delay dinâmico",
-    "url": "https://<seu-app>.onrender.com/static/fishingbot.zip"
+    "url": "https://fishingbot-server.onrender.com/fishingbot.zip"
   }
   
