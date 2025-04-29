@@ -1,16 +1,3 @@
 flask
 gunicorn
 pywin32; sys_platform == "win32"
-Flask-Limiter==3.8.0
-Flask-CORS==5.0.0
-pydantic==2.9.1
-cryptography==43.0.0
-requests==2.32.3
-mercadopago==2.2.3
-gspread==6.1.3
-oauth2client==4.1.3
-python-telegram-bot==21.6
-schedule==1.2.2
-nest-asyncio==1.6.0
-pytz==2024.2
-filelock==3.15.4
