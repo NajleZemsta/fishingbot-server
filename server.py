@@ -5,9 +5,9 @@ import requests
 app = Flask(__name__)
 
 # --- Configuração Inicial (substitua pelos seus valores ou variáveis de ambiente) ---
-WHATSAPP_TOKEN = os.getenv('WHATSAPP_TOKEN', 'EAAJT5EkYkUUBOyF...')
-PHONE_ID      = os.getenv('PHONE_ID',      '623379990863037')
-VERIFY_TOKEN  = os.getenv('VERIFY_TOKEN',  'TESTER')
+WHATSAPP_TOKEN = os.environ['WHATSAPP_TOKEN']
+PHONE_ID       = os.environ['PHONE_ID']
+VERIFY_TOKEN   = os.environ['VERIFY_TOKEN']
 
 API_URL = f'https://graph.facebook.com/v18.0/{PHONE_ID}/messages'
 HEADERS = {
